@@ -1,6 +1,6 @@
 === Simppeli ===
 
-Contributors: automattic
+Contributors: sami.keijonen
 Tags: translation-ready, custom-background, theme-options, custom-menu, post-formats, threaded-comments
 
 Requires at least: 4.0
@@ -9,11 +9,11 @@ Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A starter theme called Simppeli, or underscores.
+Simple blogging theme.
 
 == Description ==
 
-Hi. I'm a starter theme called Simppeli, or underscores, if you like. I'm a theme meant for hacking so don't use me as a Parent Theme. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
+Simppeli is a very simple blogging theme with nice typography.
 
 == Installation ==
 	
@@ -25,11 +25,11 @@ Hi. I'm a starter theme called Simppeli, or underscores, if you like. I'm a them
 
 = Does this theme support any plugins? =
 
-Simppeli includes support for Infinite Scroll in Jetpack.
+Not at the moment but many plugin works with any theme.
 
 == Changelog ==
 
-= 1.0 - May 12 2015 =
+= 1.0.0 - June 17, 2015 =
 * Initial release
 
 == Credits ==
