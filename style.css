@@ -345,15 +345,13 @@ address {
 }
 
 pre {
-	background: #eee;
+	border: 1px dotted #111;
 	font-family: "Courier 10 Pitch", Courier, monospace;
-	font-size: 15px;
-	font-size: 0.9375rem;
-	line-height: 1.6;
 	margin-bottom: 1.6em;
 	max-width: 100%;
 	overflow: auto;
 	padding: 1.6em;
+	word-wrap: normal;
 }
 
 code,
@@ -880,8 +878,9 @@ a:active {
 .page-links a,
 .page-links > span {
 	border: 1px dotted #111;
-	padding: 0.25em 0.5em;
-	margin: 0 0.5em 0.25em 0;
+	display: inline-block;
+	padding: 0.25em 0.75em;
+	margin: 0 0.5em 0.5em 0;
 }
 .page-links > span.page-links-title {
 	border: 0;
