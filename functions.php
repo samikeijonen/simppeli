@@ -28,6 +28,15 @@ if ( ! function_exists( 'simppeli_setup' ) ) :
  * as indicating support for post thumbnails.
  */
 function simppeli_setup() {
+	
+	/**
+	* Set the content width based on the theme's design and stylesheet.
+	*/
+	global $content_width;
+	if ( ! isset( $content_width ) ) {
+		$content_width = apply_filters( 'simppeli_content_width', 750 ); /* pixels */
+	}
+	
 	/*
 	 * Make theme available for translation.
 	 * Translations can be filed in the /languages/ directory.
@@ -81,18 +90,6 @@ function simppeli_setup() {
 }
 endif; // simppeli_setup
 add_action( 'after_setup_theme', 'simppeli_setup' );
-
-/**
- * Set the content width in pixels, based on the theme's design and stylesheet.
- *
- * Priority 0 to make it available to lower priority callbacks.
- *
- * @global int $content_width
- */
-function simppeli_content_width() {
-	$GLOBALS['content_width'] = apply_filters( 'simppeli_content_width', 750 );
-}
-add_action( 'after_setup_theme', 'simppeli_content_width', 0 );
 
 /**
  * Enqueue scripts and styles.
