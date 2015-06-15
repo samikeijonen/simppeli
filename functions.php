@@ -90,7 +90,7 @@ add_action( 'after_setup_theme', 'simppeli_setup' );
  * @global int $content_width
  */
 function simppeli_content_width() {
-	$GLOBALS['content_width'] = apply_filters( 'simppeli_content_width', 700 );
+	$GLOBALS['content_width'] = apply_filters( 'simppeli_content_width', 750 );
 }
 add_action( 'after_setup_theme', 'simppeli_content_width', 0 );
 
@@ -162,14 +162,6 @@ function simppeli_fonts_url() {
 	 */
 	if ( 'off' !== _x( 'on', 'Noto Serif font: on or off', 'simppeli' ) ) {
 		$fonts[] = 'Noto Serif:400italic,700italic,400,700';
-	}
-
-	/*
-	 * Translators: If there are characters in your language that are not supported
-	 * by Inconsolata, translate this to 'off'. Do not translate into your own language.
-	 */
-	if ( 'off' !== _x( 'on', 'Inconsolata font: on or off', 'simppeli' ) ) {
-		$fonts[] = 'Inconsolata:400,700';
 	}
 
 	/*
