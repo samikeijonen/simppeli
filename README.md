@@ -1,6 +1,6 @@
 # Simppeli
 
-[Simppeli](https://foxland.fi/downloads/simppeli/) is a very simple blogging theme with nice typography..
+[Simppeli](https://foxland.fi/downloads/simppeli/) is a very simple blogging theme with nice typography.
 
 ## Copyright and License
 
