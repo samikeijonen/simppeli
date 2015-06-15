@@ -29,13 +29,13 @@
 			<div class="site-description"><?php bloginfo( 'description' ); ?></div>
 		</div><!-- .site-branding -->
 
-	<?php get_template_part( 'menu', 'primary' ); // Loads the menu-primary.php template. ?>
+		<?php get_template_part( 'menu', 'primary' ); // Loads the menu-primary.php template. ?>
 	
-	<?php if ( get_header_image() ) : // Header image. ?>
-		<a class="header-image-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-			<img class="header-image" src="<?php header_image(); ?>" width="<?php echo esc_attr( get_custom_header()->width ); ?>" height="<?php echo esc_attr( get_custom_header()->height ); ?>" alt="" />
-		</a>
-	<?php endif; // End header image check. ?>
+		<?php if ( get_header_image() ) : // Header image. ?>
+			<a class="header-image-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+				<img class="header-image" src="<?php header_image(); ?>" width="<?php echo esc_attr( get_custom_header()->width ); ?>" height="<?php echo esc_attr( get_custom_header()->height ); ?>" alt="" />
+			</a>
+		<?php endif; // End header image check. ?>
 	
 	</header><!-- #masthead -->
 
