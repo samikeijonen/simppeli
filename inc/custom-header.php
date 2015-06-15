@@ -21,7 +21,7 @@ function simppeli_custom_header_setup() {
 		'wp-head-callback'       => 'simppeli_header_style'
 	) ) );
 }
-add_action( 'after_setup_theme', 'simppeli_custom_header_setup' );
+add_action( 'after_setup_theme', 'simppeli_custom_header_setup', 15 );
 
 if ( ! function_exists( 'simppeli_header_style' ) ) :
 /**
