@@ -20,8 +20,12 @@
 		<?php the_content(); ?>
 		<?php
 			wp_link_pages( array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'simppeli' ),
-				'after'  => '</div>',
+				'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'simppeli' ) . '</span>',
+				'after'       => '</div>',
+				'link_before' => '<span>',
+				'link_after'  => '</span>',
+				'pagelink'    => '<span class="screen-reader-text">' . __( 'Page', 'simppeli' ) . ' </span>%',
+				'separator'   => '<span class="screen-reader-text">, </span>',
 			) );
 		?>
 	</div><!-- .entry-content -->

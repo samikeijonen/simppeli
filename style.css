@@ -326,7 +326,7 @@ h6 {
 }
 
 p {
-	margin-bottom: 1.5em;
+	margin: 0 0 1.5em 0;
 }
 
 dfn,
@@ -396,6 +396,7 @@ html {
 
 body {
 	background: #fff; /* Fallback for when there is no custom background color defined. */
+	word-wrap: break-word;
 }
 
 blockquote:before,
@@ -420,7 +421,7 @@ hr {
 
 ul,
 ol {
-	margin: 0 0 1.5em 1.5em;
+	margin: 0 0 1.5em .5em;
 }
 
 ul {
@@ -876,9 +877,24 @@ a:active {
 	clear: both;
 	margin: 0 0 1.5em;
 }
+.page-links a,
+.page-links > span {
+	border: 1px dotted #111;
+	padding: 0.25em 0.5em;
+	margin: 0 0.5em 0.25em 0;
+}
+.page-links > span.page-links-title {
+	border: 0;
+	padding: 0;
+}
 
 .entry-footer > .entry-footer-links {
 	padding-right: 1em;
+}
+
+.post-thumbnail > img,
+.mejs-container {
+	margin-bottom: 1.5em;
 }
 
 /*--------------------------------------------------------------
@@ -925,6 +941,10 @@ ol.children .comment-body {
 }
 
 /* === Individual comments */
+
+.comment-meta {
+	margin-bottom: 1.5em;
+}
 
 li.comment .comment-wrap,
 li.ping .comment-wrap {
