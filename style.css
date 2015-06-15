@@ -1,9 +1,9 @@
 /*
 Theme Name: Simppeli
-Theme URI: https://foxland.fi/downloads/simppleli
+Theme URI: https://foxland.fi/downloads/simppeli
 Author: Sami Keijonen
 Author URI: http://foxland.fi/
-Description: The simplest theme out there.
+Description: Simple theme for bloggers and writers. It has beautiful typography and let your content be the most important part of your site.
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -273,18 +273,13 @@ select,
 textarea {
 	color: #404040;
 	font-family: "Noto Serif", serif;
-	font-size: 16px;
-	font-size: 1rem;
+	font-size: 100%;
 	line-height: 1.5;
 }
 
 @media (min-width: 37.5em) {
 	
-	body,
-	button,
-	input,
-	select,
-	textarea {
+	body {
 		font-size: 1.125em;
 	}
 	
@@ -292,11 +287,7 @@ textarea {
 
 @media (min-width: 70em) {
 	
-	body,
-	button,
-	input,
-	select,
-	textarea {
+	body {
 		font-size: 1.25em;
 	}
 	
@@ -592,6 +583,10 @@ input[type="week"],
 textarea,
 select {
 	width: 100%;
+}
+
+.search-submit {
+	margin-bottom: 1.5em;
 }
 
 /*--------------------------------------------------------------
@@ -904,6 +899,59 @@ a:active {
 .bypostauthor {
 	display: block;
 }
+
+ol.comment-list,
+ol.comment-list ol.children {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.comment-list > li {
+	border-bottom: 1px dotted #111;
+	margin-bottom: 6%;
+	padding-bottom: 6%;
+}
+
+ol.comment-list ol.children ul {
+	margin-bottom: 0;
+}
+ol.comment-list ol.children {
+	margin-left: 2%;
+}
+
+ol.children .comment-body {
+	margin-top: 1.5em;
+}
+
+/* === Individual comments */
+
+li.comment .comment-wrap,
+li.ping .comment-wrap {
+	padding-bottom: 1em;
+	padding-top: 1em;
+}
+
+ol.comment-list ul,
+ol.comment-list ol,
+ol.comment-list dl {
+	margin-bottom: 1em;
+}
+ol.comment-list ul ul,
+ol.comment-list ol ol,
+ol.comment-list dl dl {
+	margin-bottom: 0;
+}
+
+.comment-metadata .edit-link {
+	padding-left: 1em;
+}
+
+.comment-author .avatar {
+	float: left;
+	margin-right: 1em;
+}
+
 
 /*--------------------------------------------------------------
 # Infinite scroll
