@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Simppeli 1.0.0\n"
 "Report-Msgid-Bugs-To: https://foxland.fi/contact/\n"
-"POT-Creation-Date: 2015-06-15 12:07:53+00:00\n"
-"PO-Revision-Date: 2015-06-15 15:11+0200\n"
+"POT-Creation-Date: 2015-06-15 15:26:48+00:00\n"
+"PO-Revision-Date: 2015-06-15 18:32+0200\n"
 "Last-Translator: Sami Keijonen <sami.keijonen@foxnet.fi>\n"
 "Language-Team: \n"
 "Language: fi\n"
@@ -36,19 +36,19 @@ msgstr "Käytetyimmät kategoriat"
 msgid "Try looking in the monthly archives. %1$s"
 msgstr "Koita etsiä kuukausiarkistosta. %1$s"
 
-#: comments.php:38 comments.php:59
+#: comments.php:36 comments.php:58
 msgid "Comment navigation"
 msgstr "Kommenttien selaus"
 
-#: comments.php:41 comments.php:62
+#: comments.php:39 comments.php:61
 msgid "Older Comments"
 msgstr "Vanhemmat kommentit"
 
-#: comments.php:42 comments.php:63
+#: comments.php:40 comments.php:62
 msgid "Newer Comments"
 msgstr "Uudemmat kommentit"
 
-#: comments.php:75
+#: comments.php:74
 msgid "Comments are closed."
 msgstr "Kommentointi on suljettu."
 
@@ -125,6 +125,11 @@ msgstr "Emme valitettavasti löytäneet etsimääsi. Ehkä hakutoiminnosta on ap
 msgid "Pages:"
 msgstr "Sivut:"
 
+#: template-parts/content-page.php:29 template-parts/content-single.php:27
+#: template-parts/content.php:46
+msgid "Page"
+msgstr "Sivu"
+
 #. Theme Name of the plugin/theme
 msgid "Simppeli"
 msgstr "Simppeli"
@@ -149,7 +154,7 @@ msgstr "Sami Keijonen"
 msgid "http://foxland.fi/"
 msgstr "https://foxland.fi/"
 
-#: comments.php:29
+#: comments.php:27
 msgctxt "comments title"
 msgid "One thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
