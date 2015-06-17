@@ -23,30 +23,32 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
-# Normalize
-# Typography
-# Elements
-# Forms
-# Navigation
-	## Links
-	## Menus
-# Accessibility
-# Alignments
-# Clearings
-# Widgets
-# Content
-    ## Posts and pages
-	## Asides
-	## Comments
-# Infinite scroll
-# Media
-	## Captions
-	## Galleries
+1 - Normalize
+2 - Typography
+3 - Elements
+4 - Forms
+5 - Navigation
+	5.1 - Links
+	5.2 - Menus
+6 - Accessibility
+7 - Alignments
+8 - Clearings
+9 - Widgets
+10 - Content
+    10.1 - Posts and pages
+	10.2 - Asides
+	10.3 - Comments
+11 - Infinite scroll
+12 - Media
+	12.1 - Captions
+	12.2 - Galleries
 --------------------------------------------------------------*/
 
+
 /*--------------------------------------------------------------
-# Normalize
+1 - Normalize
 --------------------------------------------------------------*/
+
 html {
 	font-family: sans-serif;
 	-webkit-text-size-adjust: 100%;
@@ -263,9 +265,11 @@ th {
 	padding: 0;
 }
 
+
 /*--------------------------------------------------------------
-# Typography
+2 - Typography
 --------------------------------------------------------------*/
+
 body,
 button,
 input,
@@ -379,9 +383,11 @@ big {
 	font-size: 125%;
 }
 
+
 /*--------------------------------------------------------------
-# Elements
+3 - Elements
 --------------------------------------------------------------*/
+
 html {
 	box-sizing: border-box;
 }
@@ -493,9 +499,11 @@ th {
 	text-align: right;
 }
 
+
 /*--------------------------------------------------------------
-# Forms
+4 - Forms
 --------------------------------------------------------------*/
+
 button,
 input[type="button"],
 input[type="reset"],
@@ -588,12 +596,15 @@ select {
 	margin-bottom: 1.5em;
 }
 
+
 /*--------------------------------------------------------------
-# Navigation
+5 - Navigation
 --------------------------------------------------------------*/
+
 /*--------------------------------------------------------------
-## Links
+5.1 - Links
 --------------------------------------------------------------*/
+
 a {
 	color: #111;
 }
@@ -617,9 +628,11 @@ a:active {
 	outline: 0;
 }
 
+
 /*--------------------------------------------------------------
-## Menus
+5.2 - Menus
 --------------------------------------------------------------*/
+
 .main-navigation {
 	clear: both;
 	display: block;
@@ -674,9 +687,11 @@ a:active {
 	width: 50%;
 }
 
+
 /*--------------------------------------------------------------
-# Accessibility
+6 - Accessibility
 --------------------------------------------------------------*/
+
 /* Text meant only for screen readers. */
 .screen-reader-text {
 	clip: rect(1px, 1px, 1px, 1px);
@@ -706,9 +721,11 @@ a:active {
 	z-index: 100000; /* Above WP toolbar. */
 }
 
+
 /*--------------------------------------------------------------
-# Alignments
+7 - Alignments
 --------------------------------------------------------------*/
+
 .alignleft {
 	display: inline;
 	float: left;
@@ -728,9 +745,11 @@ a:active {
 	margin-right: auto;
 }
 
+
 /*--------------------------------------------------------------
-# Clearings
+8 - Clearings
 --------------------------------------------------------------*/
+
 .clear:before,
 .clear:after,
 .entry-content:before,
@@ -756,9 +775,11 @@ a:active {
 	clear: both;
 }
 
+
 /*--------------------------------------------------------------
-# Widgets
+9 - Widgets
 --------------------------------------------------------------*/
+
 .widget {
 	margin: 0 0 1.5em;
 }
@@ -773,8 +794,9 @@ a:active {
 	display: none;
 }
 
+
 /*--------------------------------------------------------------
-# Content
+10 - Content
 --------------------------------------------------------------*/
 
 .site {
@@ -832,9 +854,11 @@ a:active {
 	text-align: center;
 }
 
+
 /*--------------------------------------------------------------
-## Posts and pages
+10.1 - Posts and pages
 --------------------------------------------------------------*/
+
 .sticky {
 	display: block;
 }
@@ -903,17 +927,21 @@ a:active {
 	margin-bottom: 1.5em;
 }
 
+
 /*--------------------------------------------------------------
-## Asides
+10.2 - Asides
 --------------------------------------------------------------*/
+
 .blog .format-aside .entry-title,
 .archive .format-aside .entry-title {
 	display: none;
 }
 
+
 /*--------------------------------------------------------------
-## Comments
+10.3 - Comments
 --------------------------------------------------------------*/
+
 .comment-content a {
 	word-wrap: break-word;
 }
@@ -980,8 +1008,9 @@ ol.comment-list dl dl {
 
 
 /*--------------------------------------------------------------
-# Infinite scroll
+11 - Infinite scroll
 --------------------------------------------------------------*/
+
 /* Globally hidden elements when Infinite Scroll is supported and in use. */
 .infinite-scroll .posts-navigation, /* Older / Newer Posts Navigation (always hidden) */
 .infinite-scroll.neverending .site-footer { /* Theme Footer (when set to scrolling) */
@@ -993,9 +1022,11 @@ ol.comment-list dl dl {
 	display: block;
 }
 
+
 /*--------------------------------------------------------------
-# Media
+12 - Media
 --------------------------------------------------------------*/
+
 .page-content .wp-smiley,
 .entry-content .wp-smiley,
 .comment-content .wp-smiley {
@@ -1012,9 +1043,11 @@ object {
 	max-width: 100%;
 }
 
+
 /*--------------------------------------------------------------
-## Captions
+12.1 - Captions
 --------------------------------------------------------------*/
+
 .wp-caption {
 	margin-bottom: 1.5em;
 	max-width: 100%;
@@ -1033,9 +1066,11 @@ object {
 	margin: 0.8075em 0;
 }
 
+
 /*--------------------------------------------------------------
-## Galleries
+12.2 - Galleries
 --------------------------------------------------------------*/
+
 .gallery {
 	margin-bottom: 1.5em;
 }
