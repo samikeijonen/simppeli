@@ -822,6 +822,10 @@ a:active {
 	padding-bottom: 0;
 }
 
+.page-header :last-child {
+	margin-bottom: 0;
+}
+
 .site-branding {
 	margin: 5% 0;
 }
