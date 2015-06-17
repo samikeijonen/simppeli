@@ -29,7 +29,10 @@ Not at the moment but many plugin works with any theme.
 
 == Changelog ==
 
-= 1.0.0 - June 17, 2015 =
+= Version 1.0.1 - June 17, 2015
+* Fix margins and paddings styles in header.
+
+= 1.0.0 - June 16, 2015 =
 * Initial release
 
 == Credits ==

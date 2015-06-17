@@ -15,6 +15,10 @@ All other resources and theme elements are licensed under the [GNU GPL](http://w
 
 ## Changelog
 
-### Version 1.0.0 - June 17, 2015
+### Version 1.0.1 - June 17, 2015
+
+* Fix margins and paddings styles in header.
+
+### Version 1.0.0 - June 16, 2015
 
 * Everything's new!

@@ -796,6 +796,9 @@ a:active {
 	margin-bottom: 5%;
 	padding-bottom: 5%;
 }
+.site-header {
+	padding-bottom: 0;
+}
 
 .site-branding {
 	margin: 5% 0;
@@ -814,6 +817,10 @@ a:active {
 }
 .site-description {
 	font-style: italic;
+}
+
+.main-navigation {
+	padding-bottom: 5%;
 }
 
 .header-image {
