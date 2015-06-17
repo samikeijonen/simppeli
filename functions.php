@@ -8,7 +8,7 @@
 /**
  * The current version of the theme.
  */
-define( 'SIMPPELI_VERSION', '1.0.0' );
+define( 'SIMPPELI_VERSION', '1.0.1' );
 
 /**
  * The suffix to use for scripts.
