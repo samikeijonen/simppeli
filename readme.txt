@@ -29,6 +29,9 @@ Not at the moment but many plugin works with any theme.
 
 == Changelog ==
 
+= Version 1.0.2 - June 30, 2015
+* Fix margins and paddings styles in header image.
+
 = Version 1.0.1 - June 17, 2015
 * Fix margins and paddings styles in header.
 
