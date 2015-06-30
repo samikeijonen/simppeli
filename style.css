@@ -4,7 +4,7 @@ Theme URI: https://foxland.fi/downloads/simppeli
 Author: Sami Keijonen
 Author URI: http://foxland.fi/
 Description: Simple theme for bloggers and writers. It has beautiful typography and let your content be the most important part of your site.
-Version: 1.0.1
+Version: 1.0.2
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: simppeli
@@ -845,12 +845,9 @@ a:active {
 	font-style: italic;
 }
 
-.main-navigation {
-	padding-bottom: 5%;
-}
-
+.main-navigation,
 .header-image {
-	padding-top: 5%;
+	padding-bottom: 5%;
 }
 
 .site-info {
