@@ -8,7 +8,7 @@
 /**
  * The current version of the theme.
  */
-define( 'SIMPPELI_VERSION', '1.0.2' );
+define( 'SIMPPELI_VERSION', '1.0.3' );
 
 /**
  * The suffix to use for scripts.
@@ -181,10 +181,10 @@ function simppeli_fonts_url() {
 		$fonts_url = add_query_arg( array(
 			'family' => urlencode( implode( '|', $fonts ) ),
 			'subset' => urlencode( $subsets ),
-		), '//fonts.googleapis.com/css' );
+		), 'https://fonts.googleapis.com/css' );
 	}
 
-	return $fonts_url;
+	return esc_url_raw( $fonts_url );
 }
 endif;
 
