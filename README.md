@@ -15,6 +15,12 @@ All other resources and theme elements are licensed under the [GNU GPL](http://w
 
 ## Changelog
 
+### Version 1.0.3 - July 6, 2015
+
+* Use https for loading google fonts.
+* Remove unnecessary tags from style.css header.
+* Fix entry-header and entry-footer style.
+
 ### Version 1.0.2 - June 30, 2015
 
 * Fix margins and paddings styles in header image.
