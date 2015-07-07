@@ -4,7 +4,7 @@ Contributors: sami.keijonen
 Tags: translation-ready, custom-background, theme-options, custom-menu, post-formats, threaded-comments
 
 Requires at least: 4.0
-Tested up to: 4.2.2
+Tested up to: 4.3
 Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -21,13 +21,12 @@ Simppeli is a very simple blogging theme with nice typography.
 2. Click Upload and Choose File, then select the theme's .zip file. Click Install Now.
 3. Click Activate to use your new theme right away.
 
-== Frequently Asked Questions ==
-
-= Does this theme support any plugins? =
-
-Not at the moment but many plugin works with any theme.
-
 == Changelog ==
+
+= Version 1.0.3 - July 6, 2015
+* Use https for loading google fonts.
+* Remove unnecessary tags from style.css header.
+* Fix entry-header and entry-footer style.
 
 = Version 1.0.2 - June 30, 2015
 * Fix margins and paddings styles in header image.
