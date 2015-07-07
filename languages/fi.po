@@ -4,15 +4,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Simppeli 1.0.0\n"
 "Report-Msgid-Bugs-To: https://foxland.fi/contact/\n"
-"POT-Creation-Date: 2015-06-15 18:40:10+00:00\n"
-"PO-Revision-Date: 2015-06-15 21:40+0200\n"
+"POT-Creation-Date: 2015-07-07 15:48+0300\n"
+"PO-Revision-Date: 2015-07-07 15:49+0300\n"
 "Last-Translator: Sami Keijonen <sami.keijonen@foxnet.fi>\n"
 "Language-Team: \n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.5\n"
+"X-Generator: Poedit 1.8.2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: 404.php:15
@@ -36,19 +36,19 @@ msgstr "Käytetyimmät kategoriat"
 msgid "Try looking in the monthly archives. %1$s"
 msgstr "Koita etsiä kuukausiarkistosta. %1$s"
 
-#: comments.php:36 comments.php:58
+#: comments.php:38 comments.php:60
 msgid "Comment navigation"
 msgstr "Kommenttien selaus"
 
-#: comments.php:39 comments.php:61
+#: comments.php:41 comments.php:63
 msgid "Older Comments"
 msgstr "Vanhemmat kommentit"
 
-#: comments.php:40 comments.php:62
+#: comments.php:42 comments.php:64
 msgid "Newer Comments"
 msgstr "Uudemmat kommentit"
 
-#: comments.php:74
+#: comments.php:76
 msgid "Comments are closed."
 msgstr "Kommentointi on suljettu."
 
@@ -64,13 +64,13 @@ msgstr "Voimanlähteenä %s"
 msgid "Theme: %1$s by %2$s."
 msgstr "Teeman %1$s on tehnyt %2$s."
 
-#: functions.php:60 menu-primary.php:12
+#: functions.php:69 menu-primary.php:12
 msgid "Primary Menu"
 msgstr "Päävalikko"
 
 #. Translators: The %s is the post title shown to screen readers.
 #. translators: %s: Name of current post
-#: functions.php:131 template-parts/content.php:35
+#: functions.php:128 template-parts/content.php:35
 msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Jatka lukemista %s <span class=\"meta-nav\">&rarr;</span>"
 
@@ -140,11 +140,12 @@ msgstr "https://foxland.fi/downloads/simppeli"
 
 #. Description of the plugin/theme
 msgid ""
-"Simple theme for bloggers and writers. It has beautiful typography and let "
-"your content be the most important part of your site."
+"A simple and accessible theme for bloggers and writers. It has beautiful "
+"typography and allows your content to be the most important part of your "
+"site."
 msgstr ""
-"Yksinkertainen teema bloggaajille ja kirjoittajille. Teemassa on kaunis "
-"typografia ja sisältösi tulee olemaan tärkein asia sivuillasi."
+"Yksinkertainen ja esteetön teema bloggaajille ja kirjoittajille. Teemassa on "
+"kaunis typografia ja sisältösi tulee olemaan tärkein asia sivuillasi."
 
 #. Author of the plugin/theme
 msgid "Sami Keijonen"
@@ -154,29 +155,24 @@ msgstr "Sami Keijonen"
 msgid "http://foxland.fi/"
 msgstr "https://foxland.fi/"
 
-#: comments.php:27
+#: comments.php:29
 msgctxt "comments title"
 msgid "One thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] "Yksi kommentti artikkelissa &ldquo;%2$s&rdquo;"
 msgstr[1] "%1$s kommenttia artikkelissa &ldquo;%2$s&rdquo;"
 
-#: functions.php:155
+#: functions.php:152
 msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr ""
 
-#: functions.php:163
+#: functions.php:160
 msgctxt "Noto Serif font: on or off"
 msgid "on"
 msgstr ""
 
-#: functions.php:171
-msgctxt "Inconsolata font: on or off"
-msgid "on"
-msgstr ""
-
-#: functions.php:179
+#: functions.php:168
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
 msgid "no-subset"
 msgstr "no-subset"
