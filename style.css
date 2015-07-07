@@ -3,12 +3,12 @@ Theme Name: Simppeli
 Theme URI: https://foxland.fi/downloads/simppeli
 Author: Sami Keijonen
 Author URI: http://foxland.fi/
-Description: Simple theme for bloggers and writers. It has beautiful typography and let your content be the most important part of your site.
-Version: 1.0.2
+Description: A simple and accessible theme for bloggers and writers. It has beautiful typography and allows your content to be the most important part of your site.
+Version: 1.0.3
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: simppeli
-Tags: white, black, light, one-column, fluid-layout, responsive-layout, accessibility-ready, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, microformats, post-formats, sticky-post, translation-ready 
+Tags: white, black, light, one-column, responsive-layout, accessibility-ready, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, microformats, sticky-post, translation-ready 
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
@@ -901,6 +901,13 @@ a:active {
 
 .entry-meta {
 	padding-bottom: 1.5em;
+}
+
+.entry-meta,
+.entry-footer > .entry-footer-links {
+	font-size: 0.875em;
+	font-style: italic;
+	text-transform: uppercase;
 }
 
 .page-links {
