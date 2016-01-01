@@ -4,7 +4,7 @@ Theme URI: https://foxland.fi/downloads/simppeli
 Author: Sami Keijonen
 Author URI: http://foxland.fi/
 Description: A simple and accessible theme for bloggers and writers. It has beautiful typography and allows your content to be the most important part of your site.
-Version: 1.0.3
+Version: 1.0.4
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: simppeli
@@ -228,7 +228,6 @@ input[type="number"]::-webkit-outer-spin-button {
 
 input[type="search"] {
 	-webkit-appearance: textfield;
-	box-sizing: content-box;
 }
 
 input[type="search"]::-webkit-search-cancel-button,
@@ -302,7 +301,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.site-title {
 	clear: both;
 	color: #111;
 	font-family: "Noto Sans", sans-serif;
@@ -310,7 +310,8 @@ h6 {
 	margin: 0 0 3% 0;
 }
 
-h1 {
+h1,
+.site-title {
 	font-size: 2em;
 }
 h2 {
@@ -605,10 +606,7 @@ select {
 5.1 - Links
 --------------------------------------------------------------*/
 
-a {
-	color: #111;
-}
-
+a,
 a:visited {
 	color: #111;
 }
@@ -730,12 +728,14 @@ a:active {
 	display: inline;
 	float: left;
 	margin-right: 1.5em;
+	margin-bottom: 0.5em;
 }
 
 .alignright {
 	display: inline;
 	float: right;
 	margin-left: 1.5em;
+	margin-bottom: 0.5em;
 }
 
 .aligncenter {
@@ -764,6 +764,7 @@ a:active {
 .site-footer:after {
 	content: "";
 	display: table;
+	table-layout: fixed;
 }
 
 .clear:after,
@@ -831,6 +832,7 @@ a:active {
 }
 
 .site-title {
+	font-weight: bold;
 	letter-spacing: 2px;
 	margin: 0;
 }
@@ -843,6 +845,7 @@ a:active {
 }
 .site-description {
 	font-style: italic;
+	margin: 0;
 }
 
 .main-navigation,
