@@ -2,6 +2,7 @@
 
 [Simppeli](https://foxland.fi/downloads/simppeli/) is a very simple blogging theme with nice typography.
 
+
 ## Copyright and License
 
 The following resources are not included with the theme but are external resources linked to within the theme.
@@ -11,11 +12,12 @@ The following resources are not included with the theme but are external resourc
 
 All other resources and theme elements are licensed under the [GNU GPL](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html), version 2 or later.
 
-2016 &copy; [Sami Keijonen](https://foxland.fi).
+&copy; 2016 [Sami Keijonen](https://foxland.fi).
+
 
 ## Changelog
 
-### Version 1.0.4 - January 1, 2019
+### Version 1.0.4 - January 1, 2016
 
 * Use H1 only on blog index for Site Title.
 * Fix small styling issue in search field.
