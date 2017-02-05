@@ -12,10 +12,17 @@ The following resources are not included with the theme but are external resourc
 
 All other resources and theme elements are licensed under the [GNU GPL](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html), version 2 or later.
 
-&copy; 2016 [Sami Keijonen](https://foxland.fi).
+&copy; 2016-2017 [Sami Keijonen](https://foxland.fi).
 
 
 ## Changelog
+
+### Version 1.1.0 - February 5, 2017
+
+* Add custom logo feature.
+* Update skip to content JS script.
+* Remove rel="designer" from the footer.
+* Update screen-reader-text class by adding word-wrap: normal.
 
 ### Version 1.0.4 - January 1, 2016
 
