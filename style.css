@@ -4,11 +4,11 @@ Theme URI: https://foxland.fi/downloads/simppeli
 Author: Sami Keijonen
 Author URI: http://foxland.fi/
 Description: A simple and accessible theme for bloggers and writers. It has beautiful typography and allows your content to be the most important part of your site.
-Version: 1.0.4
+Version: 1.1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: simppeli
-Tags: white, black, light, one-column, responsive-layout, accessibility-ready, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, microformats, sticky-post, translation-ready 
+Tags: one-column, accessibility-ready, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, microformats, sticky-post, translation-ready, blog 
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
@@ -717,6 +717,7 @@ a:active {
 	top: 5px;
 	width: auto;
 	z-index: 100000; /* Above WP toolbar. */
+	word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
 }
 
 
