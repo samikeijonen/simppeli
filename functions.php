@@ -8,7 +8,7 @@
 /**
  * The current version of the theme.
  */
-define( 'SIMPPELI_VERSION', '1.0.4' );
+define( 'SIMPPELI_VERSION', '1.1.0' );
 
 /**
  * The suffix to use for scripts.
@@ -79,6 +79,17 @@ function simppeli_setup() {
 		'comment-list',
 		'gallery',
 		'caption',
+	) );
+	
+	/* Add theme support for refresh widgets. */
+	add_theme_support( 'customize-selective-refresh-widgets' );
+	
+	/* Add support for logo. */
+	add_theme_support( 'custom-logo', array(
+		'height'      => 80,
+		'width'       => 80,
+		'flex-height' => true,
+		'flex-width'  => true,
 	) );
 	
 	/*
